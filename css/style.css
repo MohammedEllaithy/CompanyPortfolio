@@ -1,0 +1,361 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  perspective: 300px;
+}
+html{
+  scroll-behavior:smooth ;
+  
+}
+.mainclr{
+border-color: none;
+ background-color: #bda341;
+}
+.section-padding{
+  padding: 100px 0;
+}
+.section-header{
+  padding-bottom: 30px;
+}
+.navbar-brand{
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav-area{
+  background-color: #262626;
+}
+.navbar-nav .nav-link{
+  padding-left: 0;
+  padding-right: 0;
+  color: #fff !important;
+  font-weight: bold;
+}
+.nav-item{
+  color: #fff;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+.navbar-nav .nav-item :hover{
+  color: #bda341 !important;
+  transition: .5s ease-in;
+  
+}
+
+/*ٍSlider Area*/
+
+.slider-area{
+  /* background-image: url(/images/222.jpeg); */
+  background-image: url(/images/1A.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  color: #bda341;
+  position: relative;
+}
+.slider-area:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+ /* background: linear-gradient(360deg,#000,transparent);*/
+  background: linear-gradient(180deg,#000,transparent);
+
+}
+.slider-area h1{
+  font-size: 45px;
+  font-weight: bold;
+}
+.slider-text {
+  text-align: center;
+  padding-top: 20%;
+  font-family: 'Poppins', sans-serif;
+}
+.slider-text a{
+  padding:10px 15px ;
+  background-color: #2980b9;
+  color: #fff;
+  display: inline-block;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+
+/*About Area*/
+
+.item-text{
+  padding-left: 15px;
+}
+.item-text h4{
+  margin-bottom: 30px;
+}
+.about-img{
+  padding-right: 15px; 
+}
+.about-img img{
+  border-radius: 50px;
+}
+
+/*Stats Area*/
+
+.stats-area{
+  background-image: url(/images/111.jpeg);
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+
+}
+.stats-area:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg,#000,transparent);
+  z-index: -1;
+}
+.single-stats{
+  color: #fff;
+  text-align: center;
+}
+.single-stats i{
+  margin-bottom: 5%;
+}
+.single-stats h2{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.single-stats p{
+  font-family: 'Audiowide', cursive;
+}
+
+/*Services area*/
+.services-area{
+text-align: center;
+
+}
+.single-service{
+  border: 1px solid #ddd;
+  padding: 30px 20px;
+  margin-bottom: 15px;
+  transition:all 1s ease;
+
+}
+.single-service h2{
+  margin: 15px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.single-service:hover{
+background-color: #bda341;
+color: #fff;
+}
+
+/*Award area*/
+.award-area{
+  background-image: url(/images/1a.jpeg);
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+
+}
+.award-area:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg,#000,transparent);
+  z-index: -1;
+}
+.single-award h2{
+ color: #fff;
+ font-family: 'Audiowide', cursive;
+}
+.single-award a{
+  text-decoration: none;
+  display: inline-block;
+  background-color: #2980b9;
+  color: #fff;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  border-radius: 50px;
+ }
+
+ /*Portfolio area*/
+.single-work img{
+  width: 100%;
+  border-radius: 25px;
+  border: 3px solid #000;
+
+}
+.single-work {
+  margin-bottom: 30px;
+}
+.portfolio-area .section-padding{
+  padding-bottom: 30px;
+}
+ /*Testimonials area*/
+ 
+ .testimonial-area{
+  background-image: url(/images/1b.jpeg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+
+ }
+ .testimonial-area:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: -1;
+}
+.single-testi{
+  text-align: center;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0px 30px 0px 30px;
+  padding: 15px 40px;
+  margin-bottom: 15px;
+  transition:all 1s ease;
+
+}
+.single-testi:hover{
+  /* background-color: #459cd67a; */
+  background-color: #bda341;
+  cursor: pointer;
+  }
+.single-testi h2 {
+ font-family: 'Audiowide', cursive;
+
+} 
+  
+.image-area{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.image-area img{
+  width: 100%;
+}
+.testimonial-area .section-header{
+  color: #fff;
+}
+
+/*footer area*/
+.footer-area{
+background-color: #262626;
+color: #fff;
+padding: 30px 0;
+text-align: center;
+}
+
+/*Responsive css*/
+
+@media only screen and (min-width:768px) and (max-width:991px){
+  .section-header h2{
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .navbar-toggler-icon i.fa{
+    color: #fff;
+  }
+  .slider-text{
+    padding-top: 70%;
+  }
+  .about-img{
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .item-text{
+    padding-left: 0;
+  }
+  .single-stats h2{
+    font-size: 30px;
+  }
+  .single-stats p{
+    font-size: 14px;
+  }
+  .single-testi{
+    margin-bottom: 15px;
+   }
+
+}
+
+@media only screen and (max-width:767px){
+  .section-header h2{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .navbar-toggler-icon i.fa{
+    color: #fff;
+  }
+  .slider-text{
+    padding-top: 65%;
+  }
+
+  .slider-text h1{
+    font-size: 22px;
+  }
+  .slider-text h2{
+    font-size: 20px;
+  }
+  .slider-text a{
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .item-text{
+    margin-top: 30px;
+    padding-left: 0;
+  }
+  .item-text h4{
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .about-img{
+    padding-right: 0;
+  }
+
+  .single-stats h2{
+    font-size: 30px;
+  }
+  .single-award h2{
+    padding-top: 20%;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .single-award a{
+   padding: 5px 15px;
+   font-size: 14px;
+  }
+
+  .single-testi{
+    padding: 15px 10px;
+    margin-bottom: 15px;
+   }
+}
